@@ -1,0 +1,16 @@
+::after,::before{
+    box-sizing: border-box
+}
+
+.header{
+    background: linear-gradient(45deg, lightpink, yellow );
+}
+.hero-img img{width: 70%;
+height:auto;}
+#wlcmlogo{
+    font-size: 72px;
+}
+.para{
+    font-size: 18px;
+}
+.servbox{width:350px;}
