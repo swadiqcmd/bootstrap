@@ -1,16 +1,78 @@
 ::after,::before{
     box-sizing: border-box
 }
-
+.hover-link{color: white;}
 .header{
     background: linear-gradient(45deg, lightpink, yellow );
 }
-.hero-img img{width: 70%;
-height:auto;}
+
+.hero-img img{
+    min-width:1%;
+    max-width: 50vw;
+    height:inherit;
+}
+
 #wlcmlogo{
     font-size: 72px;
 }
+
 .para{
     font-size: 18px;
 }
-.servbox{width:350px;}
+
+.servbox{width:350px;
+    position: relative;
+    top: 0px;
+    opacity: 85%;}
+
+.shadow:hover {
+    box-shadow: 0 0.5rem 1rem rgba(223, 154, 6, 0.342) !important;
+}
+
+.bg-img{
+    z-index: -10;
+    filter: grayscale(100%);
+
+    
+    position: absolute;
+}
+.transition-all{
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.full-height{
+    max-height: max-content;
+
+}
+.parallax{
+    min-height: 110vh;
+    background-image: url("service.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divider{
+    height: 100px;
+}
+.shadow-dark {
+    text-shadow: 0px 0px 5px black;
+   
+}
+.servbox:hover{ color: rgb(223, 154, 6);
+    opacity: 100%;
+    position: relative;
+    top: -10px;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.no-bullets {
+    list-style-type: none;
+}
+.footer{
+    color: white;
+}
+.main-menu{color: black;}
+.hover-link:hover{ color:rgb(255, 0, 0);}

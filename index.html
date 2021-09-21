@@ -11,79 +11,164 @@
    
 </head>
 <body >
-    <header>
-    </header>
-    <div class="container-fluid header sticky-top " >
-        <div class=" ms-4 justify-content-between d-flex">
-            <div class="logo my-3"><h1><a class="text-decoration-none " style="color:darkblue; font-weight: 500" href="http://"><span style="font-weight: 900">Boot</span>strap</a></h1></div>
-            <nav class=" navbar me-4">
-                <a href="#Home"     class="navlink scrollto text-dark text-decoration-none h5 ps-5">Home</a>
-                <a href="#Services" class="navlink scrollto text-dark text-decoration-none h5 ps-5">Services</a>
-                <a href="#About"    class="navlink scrollto text-dark text-decoration-none h5 ps-5">About</a>
-                <a href="#contact"  class="navlink scrollto text-dark text-decoration-none h5 btn btn-secondary text-white mx-3">Contact</a>
-                <i class="fas fa-bars"></i>
+    <header class="sticky-top header container-fluid">
+        <div class="container" >
+            <nav class=" navbar navbar-expand-lg  justify-content-between d-flex ">
+                <div class="navbar-brand ">
+                    <h1><a class="text-decoration-none " style="color:darkblue; font-weight: 500" href="http://"><span style="font-weight: 900">Boot</span>strap</a></h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item "> <a href="#Home" class="nav-link scrollto main-menu hover-link text-decoration-none h5 ps-5">Home</a></li>
+                        <li class="nav-item "> <a href="#Services" class="nav-link scrollto main-menu hover-link text-decoration-none h5 ps-5">Services</a></li>
+                        <li class="nav-item "> <a href="#About"    class="nav-link scrollto main-menu hover-link text-decoration-none h5 ps-5">About</a></li>
+                        <li class="nav-item "> <a href="#contact"  class="nav-link scrollto main-menu hover-link text-decoration-none h5 btn btn-secondary text-white mx-3">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
-          
-
-            </div>
         </div>
-    </div>
+    </header>
 
     <main>
         <section class=" mt-5" id="Home">
            <div class="container">
                <div class="row d-flex justify-content-between">
-                   <div class="col-md-6 text-start">
+                   <div class="col-lg-6 text-lg-start text-center order-lg-1 order-2 mt-5 mt-lg-0">
                        <h1>Welcome To <br> <span id="wlcmlogo" class=" h1 text-danger">Bootstrap</span></h1>
                        <h3 class="mt-3">We are Responsive web pages</h3>
                        <p class="para mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fuga dolorum quidem ipsa aliquid a consequatur facere? Distinctio alias, eum, aut a sint reprehenderit accusantium debitis nobis sit harum nam mollitia porro repudiandae! Ipsam enim molestiae velit, debitis non asperiores voluptatum quis perferendis nostrum illo dignissimos ab itaque doloremque ullam.</p>
                    </div>
-                   <div class="col-md-6 hero-img justify-content-center align-content-center">
+                   <div class="col-lg-6 hero-img d-flex justify-content-center mt-5 mt-lg-0 order-lg-2 order-1 ">
                        <img src="hero-img.png" class="mx-5" alt="">
                    </div>
-               </div>
+                </div>
+                <br>
+                <div class="btn btn-primary  text-center py-2  col-lg-2 col-md-4 col-sm-6 offset-md-2  offset-3   col-6 offset-lg-0 ">Get Started</div>
+                <div class="btn btn-primary mt-3 mt-md-0 text-center py-2  col-lg-2 col-md-4 col-sm-6 offset-md-2  offset-3 col-6 ms-md-3 ">Watch video <i class="fas fa-play-circle ps-2"></i> </div>
            </div> 
 
 
         </section>
-<br><br>
+<div class="divider"></div><br>
         <section>
-            <div class="container">
-                <div id="Services">
-                    <h1 class="text-center fw-bold text-danger mb-3 mt-5">Services</h1>
-                    <div class="row justify-content-between">
-                        <div class="col-lg-4 col-md-6 servbox g-5  text-center rounded-3 py-3 bg-white shadow">
-                            <h3>Service</h3>
+            <div class="container-fluid parallax">
+                <div id="Services" class="container pb-5">
+                    <h1 class="text-center fw-bold text-white shadow-dark  pt-5">Services</h1>
+                    <div class="row justify-content-around mt-3">
+                        <div class="col-lg-4 col-md-6 servbox g-5 text-center rounded-3 py-3 bg-white shadow">
+                            <div class="d-flex justify-content-center">
+                                 <h3><i class="fas fa-play-circle h4 me-3"></i>Service</h3>
+                            </div> 
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, autem obcaecati. Provident nulla maiores maxime nesciunt saepe magnam sapiente, consequuntur dolorem libero et, tempore incidunt, ea atque amet dolorum voluptates.</p>
                         </div>
-                        <div class="col-lg-4 col-md-6 servbox g-5  text-center rounded-3 py-3 bg-white shadow">
-                            <h3>Service</h3>
+                        <div class="col-lg-4 col-md-6 servbox g-5 text-center rounded-3 py-3 bg-white shadow">
+                            <div class="d-flex justify-content-center">
+                                 <h3><i class="fas fa-bars h4 me-3"></i>Service</h3>
+                            </div> 
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, autem obcaecati. Provident nulla maiores maxime nesciunt saepe magnam sapiente, consequuntur dolorem libero et, tempore incidunt, ea atque amet dolorum voluptates.</p>
                         </div>
-                        <div class="col-lg-4 col-md-6 servbox g-5  text-center rounded-3 py-3 bg-white shadow">
-                            <h3>Service</h3>
+                        <div class="col-lg-4 col-md-6 servbox g-5 text-center rounded-3 py-3 bg-white shadow">
+                            <div class="d-flex justify-content-center">
+                                 <h3><i class="fas fa-star h4 me-3"></i>Service</h3>
+                            </div> 
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, autem obcaecati. Provident nulla maiores maxime nesciunt saepe magnam sapiente, consequuntur dolorem libero et, tempore incidunt, ea atque amet dolorum voluptates.</p>
                         </div>
-                        <div class="col-lg-4 col-md-6 servbox g-5  text-center rounded-3 py-3 bg-white shadow">
-                            <h3>Service</h3>
+                        <div class="col-lg-4 col-md-6 servbox g-5 text-center rounded-3 py-3 bg-white shadow">
+                            <div class="d-flex justify-content-center">
+                                 <h3><i class="fas fa-user-circle h4 me-3"></i>Service</h3>
+                            </div> 
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, autem obcaecati. Provident nulla maiores maxime nesciunt saepe magnam sapiente, consequuntur dolorem libero et, tempore incidunt, ea atque amet dolorum voluptates.</p>
                         </div>
-                        <div class="col-lg-4 col-md-6 servbox g-5  text-center rounded-3 py-3 bg-white shadow">
-                            <h3>Service</h3>
+                        <div class="col-lg-4 col-md-6 servbox g-5 text-center rounded-3 py-3 bg-white shadow">
+                            <div class="d-flex justify-content-center">
+                                 <h3><i class="fas fa-pen h4 me-3"></i>Service</h3>
+                            </div> 
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, autem obcaecati. Provident nulla maiores maxime nesciunt saepe magnam sapiente, consequuntur dolorem libero et, tempore incidunt, ea atque amet dolorum voluptates.</p>
                         </div>
-                        <div class="col-lg-4 col-md-6 servbox g-5  text-center rounded-3 py-3 bg-white shadow">
-                            <h3>Service</h3>
+                        <div class="col-lg-4 col-md-6 servbox g-5 text-center rounded-3 py-3 bg-white shadow">
+                            <div class="d-flex justify-content-center">
+                                 <h3><i class="fas fa-laptop h4 me-3"></i>Service</h3>
+                            </div> 
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, autem obcaecati. Provident nulla maiores maxime nesciunt saepe magnam sapiente, consequuntur dolorem libero et, tempore incidunt, ea atque amet dolorum voluptates.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+<div class="divider"></div><br>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="fw-bold">Heading</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias optio reiciendis architecto voluptatibus praesentium iusto dolorum quibusdam nam, vitae aliquid. Soluta, quaerat consequatur. Qui, voluptas perspiciatis rerum natus neque quisquam.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="fw-bold">Heading</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias optio reiciendis architecto voluptatibus praesentium iusto dolorum quibusdam nam, vitae aliquid. Soluta, quaerat consequatur. Qui, voluptas perspiciatis rerum natus neque quisquam.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="fw-bold">Heading</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias optio reiciendis architecto voluptatibus praesentium iusto dolorum quibusdam nam, vitae aliquid. Soluta, quaerat consequatur. Qui, voluptas perspiciatis rerum natus neque quisquam.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="fw-bold">Heading</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias optio reiciendis architecto voluptatibus praesentium iusto dolorum quibusdam nam, vitae aliquid. Soluta, quaerat consequatur. Qui, voluptas perspiciatis rerum natus neque quisquam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
     </main>
-   
-    <footer></footer>
+
+    <div class="divider"></div><br>
+
+    <footer>
+        <div class="container-fluid bg-dark ">
+                <h1 class="fw-bold text-white text-center pt-5 pb-5">Footer Menu</h1>
+            <div class="row pb-3 "> 
+                <div class="col-md-4 col-12">
+                    <ul class="nav-footer no-bullets">
+                        <li class="nav-item"><a href="" class="nav-link hover-link text-center ">footer link</a></li>
+                        <li class="nav-item"><a href="" class="nav-link hover-link text-center ">footer link</a></li>
+                        <li class="nav-item"><a href="" class="nav-link hover-link text-center ">footer link</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12">
+                    <ul class="nav-footer no-bullets">
+                        <li class="nav-item"><a href="" class="nav-link hover-link text-center ">footer link</a></li>
+                        <li class="nav-item"><a href="" class="nav-link hover-link text-center ">footer link</a></li>
+                        <li class="nav-item"><a href="" class="nav-link hover-link text-center ">footer link</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12">
+                    <ul class="nav-footer no-bullets">
+                        <li class="nav-item"><a href="" class="nav-link hover-link text-center ">footer link</a></li>
+                        <li class="nav-item"><a href="" class="nav-link hover-link text-center ">footer link</a></li>
+                        <li class="nav-item"><a href="" class="nav-link hover-link text-center ">footer link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright pb-3 d-flex justify-content-center mx-5 "><p class="pb-2 ms-5 text-center text-secondary ">&copy; 2021 swadiqcmd</p>
+                <ul class="no-bullets d-flex me-5 ">
+                    <li class=""><a href=""class="hover-link"><i class=" px-2 fab fa-facebook"></i></a></li>
+                    <li class=""><a href=""class="hover-link"><i class=" px-2 fab fa-twitter"></i></a></li>
+                    <li class=""><a href=""class="hover-link"><i class=" px-2 fab fa-instagram"></i></a></li>
+                    <li class=""><a href=""class="hover-link"><i class=" px-2 fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/6a00dbc294.js" crossorigin="anonymous"></script>
-     <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
